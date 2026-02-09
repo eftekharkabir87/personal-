@@ -1,0 +1,112 @@
+{
+  "facebookAccount": {
+    "email": "",
+    "password": "",
+    "2FASecret": "",
+    "i_user": "",
+    "proxy": null,
+    "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
+    "intervalGetNewCookie": 1440
+  },
+  "antiInbox": true,
+  "checkApproval": true,
+  "language": "en",
+
+  "nickNameBot": "Alya め🥀",
+  "prefix": "-",
+
+  "usePrefix": {
+    "enable": true,
+    "adminUsePrefix": {
+      "enable": true,
+      "specificUids": [
+        "61575161136678",
+        "61585911203262",
+        "61584035788710"
+      ]
+    },
+    "specialUidNoPrefix": "61585911203262" 
+  },
+
+  "adminOnly": {
+    "enable": false,
+    "ignoreCommand": []
+  },
+
+  "adminBot": [
+    "61585911203262",
+    "61585911203262",
+    "61584035788710"
+  ],
+
+  "whiteListMode": {
+    "enable": false,
+    "whiteListIds": [
+      "61585911203262",
+      "61584035788710"
+    ]
+  },
+
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": []
+  },
+
+  "database": {
+    "type": "mongodb",
+    "uriMongodb": "mongodb+srv://muhammadsaifuli169:IV7gkq6Edo991l0X@cluster0.ksydzxu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "autoSyncWhenStart": false,
+    "autoRefreshThreadInfoFirstTime": true
+  },
+
+  "timeZone": "Asia/Dhaka",
+
+  "credentials": {
+    "gmailAccount": {
+      "email": "messengerbot61@gamil.com",
+      "clientId": "552344212361-ujv8mjve7ue0r20t5caem9a41o8il508.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04KHgkn8_-_PfCgYIARAAGAQSNwF-L9Iro-cV9UkOYQjg6noVALzdmrnrL8rijCPS96WGrKoflqLkXr76iZiXezLunTbJAU1AxS4",
+      "apiKey": ""
+    }
+  },
+
+  "dashBoard": {
+    "enable": true,
+    "expireVerifyCode": 300000,
+    "port": 9999
+  },
+
+  "autoRestart": {
+    "time": null
+  },
+
+  "autoRefreshFbstate": true,
+  "autoReloginWhenChangeAccount": true,
+
+  "restartListenMqtt": {
+    "enable": true,
+    "timeRestart": 1800000,
+    "delayAfterStopListening": 2000,
+    "logNoti": true
+  },
+
+  "logEvents": {
+    "disableAll": false,
+    "message": true,
+    "message_reaction": true,
+    "message_unsend": true,
+    "message_reply": true,
+    "event": true
+  },
+
+  "optionsFca": {
+    "forceLogin": true,
+    "listenEvents": true,
+    "updatePresence": true,
+    "listenTyping": true,
+    "logLevel": "error",
+    "selfListen": false
+  }
+      }
+  
